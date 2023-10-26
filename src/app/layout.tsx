@@ -5,8 +5,10 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 
 export const metadata: Metadata = {
-  title: 'Dev store',
-  description: 'Loja para treinamento de nextjs.13',
+  title: {
+    template: '%s | devstore',
+    default: 'devstore',
+  },
 }
 
 export default function RootLayout({
