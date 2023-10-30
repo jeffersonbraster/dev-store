@@ -1,8 +1,7 @@
 'use client'
-
-import { Search } from 'lucide-react'
-import { useRouter, useSearchParams } from 'next/navigation'
 import { FormEvent } from 'react'
+import { useRouter, useSearchParams } from 'next/navigation'
+import { Search } from 'lucide-react'
 
 export default function SearchForm() {
   const router = useRouter()
